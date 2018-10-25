@@ -1,0 +1,12 @@
+ex1(terminal commands)
+
+Daniils-MacBook-Air:~ daniilshilintsev$ cd Desktop
+Daniils-MacBook-Air:Desktop daniilshilintsev$ cd Week10
+Daniils-MacBook-Air:Week10 daniilshilintsev$ ls
+ex1.txt
+Daniils-MacBook-Air:Week10 daniilshilintsev$ touch _ex1.txt
+Daniils-MacBook-Air:Week10 daniilshilintsev$ ln _ex1.txt _ex1_1.txt
+Daniils-MacBook-Air:Week10 daniilshilintsev$ ln _ex1.txt _ex1_2.txt
+Daniils-MacBook-Air:Week10 daniilshilintsev$ ls -i _ex1.txt >> ex1.txt
+Daniils-MacBook-Air:Week10 daniilshilintsev$ ls -i _ex1_1.txt >> ex1.txt
+Daniils-MacBook-Air:Week10 daniilshilintsev$ ls -i _ex1_2.txt >> ex1.txt
